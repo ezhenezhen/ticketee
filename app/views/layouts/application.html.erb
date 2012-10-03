@@ -8,6 +8,14 @@
 </head>
 <body>
 
+<%= stylesheet_link_tag "application" %>
+
+<% flash.each do |key, value| %>
+<div class='flash' id='<%=key%>'>
+  <%= value %>
+</div>
+    <% end %>
+
 <%= yield %>
 
 </body>
