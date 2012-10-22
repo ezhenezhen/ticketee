@@ -6,7 +6,6 @@ describe ProjectsController do
   let(:project) { Factory(:project) }
 
   context "standard users" do
-    #it "cannot access the new action" do
       {"new" => "get",
       "create" => "post",
       "edit" => "get",
@@ -20,9 +19,16 @@ describe ProjectsController do
         end
       end
      end
-  #end
+
+  it "cannot access the show action" do
+    sign_in(:user, user)
+    get :show, :id => project.id
+    response.should redirect_to(projects_path)
+    flash[:alert].should eql("The project you were looking for could not be found.")
+  end
 
   it "displays an error for a missing project" do
+    sign_in(:user, user)
     get :show, :id => "not-here"
     response.should redirect_to(projects_path)
     message = "The project you were looking for could not be found."
