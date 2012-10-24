@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  has_many :permissions
   #has_many :tickets
   # Include default devise modules. Others available are:
   # :token_authenticatable, :encryptable, :confirmable, :lockable,
