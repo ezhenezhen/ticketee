@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27497a72-115d-4075-9a59-d9bf68c3f190" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tickets/show.html.erb" afterPath="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/deleting_tickets.feature" afterPath="$PROJECT_DIR$/features/deleting_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hidden_links.feature" afterPath="$PROJECT_DIR$/features/hidden_links.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/permissions/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/assigning_permissions.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
     </list>
     <ignored path="ticketee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +31,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deleting_tickets.feature" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deleting_tickets.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="48" selection-start="667" selection-end="667" vertical-scroll-proportion="0.34042552">
+            <state line="6" column="71" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1351078024000" expanded="true" signature="119:587" placeholder="Background" />
+                <marker date="1351078024000" expanded="true" signature="899:1243" placeholder="Scenario: Delete ticket link is shown to a user with permission" />
+                <marker date="1351078024000" expanded="true" signature="1247:1465" placeholder="Scenario: Delete ticket link is hidden from a user without permission" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assigning_permissions.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/assigning_permissions.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="40" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permissions_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/permissions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="40" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="0.3398058">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/permissions/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="30" selection-start="621" selection-end="621" vertical-scroll-proportion="-16.25">
+              <folding>
+                <marker date="1351080459000" expanded="true" signature="115:583" placeholder="..." />
+                <marker date="1351080459000" expanded="true" signature="125:235" placeholder="..." />
+                <marker date="1351080459000" expanded="true" signature="244:574" placeholder="..." />
+                <marker date="1351080459000" expanded="true" signature="319:551" placeholder="..." />
+                <marker date="1351080459000" expanded="true" signature="399:529" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/users/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="54" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permissions_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="22" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permission_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="51" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,14 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/registration_controller.rb" />
-        <option value="$PROJECT_DIR$/factories/ticket_factory.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
-        <option value="$PROJECT_DIR$/features/creating_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
         <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
@@ -76,6 +152,14 @@
         <option value="$PROJECT_DIR$/features/hidden_links.feature" />
         <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
         <option value="$PROJECT_DIR$/features/deleting_tickets.feature" />
+        <option value="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/permissions/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/permissions_controller.rb" />
+        <option value="$PROJECT_DIR$/features/assigning_permissions.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -439,6 +523,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="permissions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -943,62 +1075,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10964912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="413" selection-end="413" vertical-scroll-proportion="0.24590164">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="447" selection-end="447" vertical-scroll-proportion="0.2817919">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="612" selection-end="612" vertical-scroll-proportion="0.4023845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/editing_tickets.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="72" selection-start="523" selection-end="523" vertical-scroll-proportion="0.27659574">
@@ -1050,7 +1126,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="667" selection-end="667" vertical-scroll-proportion="0.34042552">
+        <state line="6" column="71" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1351078024000" expanded="true" signature="119:587" placeholder="Background" />
+            <marker date="1351078024000" expanded="true" signature="899:1243" placeholder="Scenario: Delete ticket link is shown to a user with permission" />
+            <marker date="1351078024000" expanded="true" signature="1247:1465" placeholder="Scenario: Delete ticket link is hidden from a user without permission" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/permissions/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="621" selection-end="621" vertical-scroll-proportion="-16.25">
+          <folding>
+            <marker date="1351080459000" expanded="true" signature="115:583" placeholder="..." />
+            <marker date="1351080459000" expanded="true" signature="125:235" placeholder="..." />
+            <marker date="1351080459000" expanded="true" signature="244:574" placeholder="..." />
+            <marker date="1351080459000" expanded="true" signature="319:551" placeholder="..." />
+            <marker date="1351080459000" expanded="true" signature="399:529" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="54" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/assigning_permissions.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/permissions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="0.3398058">
           <folding />
         </state>
       </provider>
