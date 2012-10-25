@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27497a72-115d-4075-9a59-d9bf68c3f190" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/seed.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/application_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/assigning_permissions.feature" afterPath="$PROJECT_DIR$/features/assigning_permissions.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="ticketee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +37,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permissions_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="permissions_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="228" selection-end="228" vertical-scroll-proportion="0.19148937">
+            <state line="10" column="47" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.24590164">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seed.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/seed.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="35" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/application_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
-        <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/features/hidden_links.feature" />
@@ -74,6 +99,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/features/assigning_permissions.feature" />
         <option value="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
+        <option value="$PROJECT_DIR$/features/seed.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/application_steps.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -989,21 +1017,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/editing_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="72" selection-start="523" selection-end="523" vertical-scroll-proportion="0.27659574" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="54" selection-start="484" selection-end="484" vertical-scroll-proportion="-0.68085104" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="10" selection-start="553" selection-end="553" vertical-scroll-proportion="-11.25" />
@@ -1090,7 +1103,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="228" selection-end="228" vertical-scroll-proportion="0.19148937">
+        <state line="10" column="47" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/application_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/seed.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.24590164">
           <folding />
         </state>
       </provider>
