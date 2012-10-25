@@ -4,5 +4,6 @@ class Ticket < ActiveRecord::Base
             :length => {:minimum => 10}
   belongs_to :project
   belongs_to :user
-  attr_accessible :description, :title
+  attr_accessible :description, :title, :asset
+  has_attached_file :asset
 end
