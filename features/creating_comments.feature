@@ -37,4 +37,4 @@ Feature: Creating comments
       And I press "Create Comment"
       Then I should see "Comment has been created."
       Then I should see "Open"
-      Then I should see "New"
+      Then I should see "State: Open" within "#comments"
