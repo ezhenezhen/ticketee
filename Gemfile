@@ -32,14 +32,15 @@ group :test, :development do
 end
 
 group :test do
-  #gem 'cucumber'
+  gem 'cucumber'
   gem 'cucumber-rails', '1.0.6'
   gem 'capybara'
   gem 'nokogiri'
   gem 'database_cleaner'
-  gem 'factory_girl'
+  gem 'factory_girl', '1.3.3'
   gem 'email_spec'
   gem 'launchy'
+  #gem 'rake', '0.9.2'
 end
 
 gem 'devise', '~> 1.4.3'
