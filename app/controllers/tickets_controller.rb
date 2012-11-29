@@ -24,6 +24,7 @@ class TicketsController < ApplicationController
       flash[:alert]= "Ticket has not been created."
       render :action => "new"
     end
+    @ticket.tag!(params[:tags])
   end
 
   def show
