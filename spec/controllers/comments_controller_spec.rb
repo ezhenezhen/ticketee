@@ -12,4 +12,20 @@ describe CommentsController do
 
   let(:state) {State.create!(:name => "New")}
 
+  context "a user without permission to set state" do
+    before do
+      sign_in(:user, user)
+      Permission.create!(:user => user, :thing => project, :action => "view")
+    end
+
+    it "cannot transition a state by passing through state_id" do
+      post :create, { :tags => "",
+                      :comment => { :text => "Hacked!",
+                                    :state_id => state.id  },
+                      :ticket_id => ticket.id  }
+      ticket.reload
+      ticket.state.should eql(nil)
+    end
+  end
+
 end

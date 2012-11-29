@@ -6,15 +6,16 @@
       <%= f.text_area :text %>
     </p>
 
-    <%= f.submit %>
 
     <% authorized?(:"change states", @project) do %>
+        <%= render "tags/form" %>
+        <p>
+          <%= f.label :state_id %>:
+          <%= f.select :state_id, @states.map {|s| [s.name, s.id]},
+                       :selected => @ticket.state_id %>
+        </p>
 
-    <p>
-      <%= f.label :state_id %>:
-      <%= f.select :state_id, @states.map {|s| [s.name, s.id]},
-      :selected => @ticket.state_id %>
-    </p>
     <% end %>
+    <%= f.submit %>
 
 <% end %>
